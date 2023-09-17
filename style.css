@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+}
+/*common-styling-start*/
+
+.w-50 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+.line {
+    border-top: solid 1px #dadde1;
+    margin: 20px 0;
+}
+
+/*common-styling-end*/
+
+/*main-area-start*/
+
+.main-area {
+    background: #f0f2f5;
+    overflow: hidden;
+    padding: 133px 0;
+}
+
+.facebook-image-and-content .facebook-image {
+    margin-top: 96px;
+}
+
+.facebook-image-and-content .facebook-image img {
+    width: 225px;
+}
+
+.facebook-image-and-content .facebook-content p {
+    font-size: 25px;
+    color: #1c1e3b;
+    margin: 14px 0 0 8px;
+}
+
+.facebook-image-and-content {
+    width: 52%;
+    margin: auto;
+}
+
+.main-area .login-form {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.main-area .login-form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-area .login-form input[type="text"], .main-area .login-form input[type="password"] {
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: solid 1px #c4c6d0;
+}
+
+::placeholder {
+    color: #c4c6d0;
+}
+
+.main-area .login-form input[type="submit"] {
+    background-color: #1877F2;
+    color: #fff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700px;
+    margin-bottom: 18px;
+}
+
+.main-area .login-form input[type="text"]:focus {
+    border: solid 1px #1877F2 !important;
+    outline: none;
+}
+
+.main-area .login-form input[type="password"]:focus {
+    border: solid 1px #1877F2 !important;
+    outline: none;
+}
+
+.main-area .login-form .forgot-link {
+    color: #18A4F7;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-area .login-form .forgot-link:hover {
+    text-decoration: underline;
+}
+
+.main-area .login-form .new-acc-link {
+    background-color: #3EA225;
+    padding: 15px 12px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.main-area .creat-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-area .creat-page a {
+    text-decoration: none;
+    color: #1C1E21;
+    font-weight: bold;
+}
+
+.main-area .creat-page p {
+    text-decoration: none;
+    color: #1c1e21;
+}
+
+
+/*main-area-end*/
+
+
+/*footer-area-start*/
+
+.footer-area {
+    padding: 30px 0;
+}
+
+.footer-area .languages ul,
+.footer-area .custom-links ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #8a8d91;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+
+.footer-area .languages ul a,
+.footer-area .custom-links ul a {
+    color: #8a8d91;
+    text-decoration: none;
+}
+
+.footer-area .languages ul li,
+.footer-area .custom-links ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.footer-area .copyright {
+    font-size: 14px;
+    color: #8888bd;
+    margin-top: 40px;
+}
+
+.footer-area .languages ul a:hover,
+.footer-area .custom-links ul a:hover {
+    text-decoration: underline;
+}
+
+/*footer-area-end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
